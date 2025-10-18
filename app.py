@@ -9,7 +9,7 @@ KEY = "0716289f2e856a66748b0ec8098ed8ec"
 app.config['MYSQL_HOST'] = '127.0.0.1'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''      
-app.config['MYSQL_DB'] = 'weather_db'     
+app.config['MYSQL_DB'] = 'Weather_db'     
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
